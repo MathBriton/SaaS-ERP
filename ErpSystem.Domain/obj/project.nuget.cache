@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "USt29faMmIHDZ81f8K4N5h7SZLQqcdYVaEcFUvR5Uo2L1YgbPx+YLnP4be7VedNkMnUd9+L/g+78rVMgs+WzuA==",
+  "success": true,
+  "projectFilePath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/brito/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

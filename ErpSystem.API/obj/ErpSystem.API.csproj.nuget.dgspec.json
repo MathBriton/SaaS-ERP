@@ -1,0 +1,314 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj": {}
+  },
+  "projects": {
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
+        "projectName": "ErpSystem.API",
+        "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
+        "packagesPath": "/home/brito/.nuget/packages/",
+        "outputPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/brito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/ErpSystem.Application.csproj": {
+                "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/ErpSystem.Application.csproj"
+              },
+              "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj": {
+                "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-rc.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/ErpSystem.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/ErpSystem.Application.csproj",
+        "projectName": "ErpSystem.Application",
+        "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/ErpSystem.Application.csproj",
+        "packagesPath": "/home/brito/.nuget/packages/",
+        "outputPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/brito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj": {
+                "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj",
+        "projectName": "ErpSystem.Domain",
+        "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj",
+        "packagesPath": "/home/brito/.nuget/packages/",
+        "outputPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/brito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj",
+        "projectName": "ErpSystem.Infrastructure",
+        "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj",
+        "packagesPath": "/home/brito/.nuget/packages/",
+        "outputPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/brito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj": {
+                "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

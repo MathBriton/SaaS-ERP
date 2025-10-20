@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HnJVuq1kH315Lx+7YgKsYoJOX3HvoUj9Q731KNDUw8h5gwEQA6Rz5/aCh3vUkj9msxwYxEH4SBy8OurjpgPZ+w==",
+  "success": true,
+  "projectFilePath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Application/ErpSystem.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/brito/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

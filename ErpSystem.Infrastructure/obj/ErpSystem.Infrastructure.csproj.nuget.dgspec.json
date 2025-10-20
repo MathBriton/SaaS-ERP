@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj",
+        "projectName": "ErpSystem.Domain",
+        "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj",
+        "packagesPath": "/home/brito/.nuget/packages/",
+        "outputPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/brito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj",
+        "projectName": "ErpSystem.Infrastructure",
+        "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/ErpSystem.Infrastructure.csproj",
+        "packagesPath": "/home/brito/.nuget/packages/",
+        "outputPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/brito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj": {
+                "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.Domain/ErpSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
