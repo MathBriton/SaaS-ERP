@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6HpbWsE5MJvGLso8zgwT2qb0AE7Eqq8gHInleHCuGCa6F+peoTrK4/KANErWzl6W9sE0xFPdviHhmeOOria0dA==",
+  "dgSpecHash": "aPf2dqIq3rE=",
   "success": false,
   "projectFilePath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
   "expectedPackageFiles": [
@@ -83,6 +83,8 @@
       "code": "NU1605",
       "level": "Error",
       "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 9.0.10 to 8.0.10. Reference the package directly from the project to select a different version. \n ErpSystem.API -> ErpSystem.Infrastructure -> Microsoft.EntityFrameworkCore (>= 9.0.10) \n ErpSystem.API -> Microsoft.EntityFrameworkCore (>= 8.0.10)",
+      "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
+      "filePath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net8.0"
@@ -92,6 +94,8 @@
       "code": "NU1605",
       "level": "Error",
       "message": "Warning As Error: Detected package downgrade: Npgsql.EntityFrameworkCore.PostgreSQL from 8.0.8 to 8.0.0-rc.2. Reference the package directly from the project to select a different version. \n ErpSystem.API -> ErpSystem.Infrastructure -> Npgsql.EntityFrameworkCore.PostgreSQL (>= 8.0.8) \n ErpSystem.API -> Npgsql.EntityFrameworkCore.PostgreSQL (>= 8.0.0-rc.2)",
+      "projectPath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
+      "filePath": "/home/brito/Documents/csharp-projetos/ERP-SaaS/ErpSystem.API/ErpSystem.API.csproj",
       "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL",
       "targetGraphs": [
         "net8.0"
